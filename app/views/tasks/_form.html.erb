@@ -28,8 +28,8 @@
       <%= f.label :status, 'ステータス' %>
       <%= f.text_field :status, class: 'form-control' %>
     </div>
-    
-      <%= f.submit '投稿', class: 'btn btn-primary' %>
+      <% btn_text = task.id.blank? ? '作成' : '更新' %> 
+      <%= f.submit btn_text, class: 'btn btn-primary' %>
     <% end %>
   
   </div>
