@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+タスクを管理できるWebアプリケーションです。
 
-Things you may want to cover:
+機能一覧
 
-* Ruby version
+* ユーザ登録機能
+* タスク内容、ステータス投稿機能
+* 編集機能
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+作成したアプリはこちらです。
+http://tasklist-kadaiversion.herokuapp.com/
